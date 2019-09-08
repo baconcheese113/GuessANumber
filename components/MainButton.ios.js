@@ -13,6 +13,10 @@ export default function MainButton(props) {
 }
 
 const styles = StyleSheet.create({
+  buttonContainer: {
+    borderRadius: 25,
+    overflow: "hidden"
+  },
   button: {
     backgroundColor: colors.primary,
     paddingVertical: 12,
